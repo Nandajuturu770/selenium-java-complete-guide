@@ -191,7 +191,10 @@ public class MouseActions {
      * @param keys    <code>{@link Keys}</code>
      */
     public void keyDownOnElement(WebElement element , String keys){
-        actions.keyDown(element, keys).perform();
+        actions.keyDown(element, keys)
+                .sendKeys("selenium")
+                .keyUp(keys)
+                .perform();
     }
 
     /**
@@ -207,7 +210,7 @@ public class MouseActions {
      * @param element <code>{@link WebElement}</code>
      * @param keys    <code>{@link Keys}</code>
      */
-    public void keyUpOnElement(WebElement element , String keys){
+    public void keyUpOnElement(WebElement element , Keys keys){
         actions.keyUp(element, keys).perform();
     }
 }
