@@ -37,7 +37,5 @@ public class DisableElement{
 		Thread.sleep(2000);
 		// to close 
 		dr.quit();
-		
 	}
-
 }

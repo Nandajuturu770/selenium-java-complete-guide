@@ -1,19 +1,17 @@
 
 <suite name="Suite" parallel = "tests">
-  <test thread-count="5" name="Test1">
-	  <parameter name = "browser" value = "chrome"/>
-    <classes>
-      <class name="testingK.Verify"/>
-      <class name="testingK.TestDemo"/>
-      <class name="webelement_methods.Test"/>
-    </classes>
-  </test> 
+<!--  <test thread-count="5" name="Test1">-->
+<!--	  <parameter name = "browser" value = "chrome"/>-->
+<!--    <classes>-->
+<!--      <class name="testingK.Verify"/>-->
+<!--      <class name="testingK.TestDemo"/>-->
+<!--      <class name="webelement_methods.Test"/>-->
+<!--    </classes>-->
+<!--  </test> -->
   <test thread-count="5" name="Test2">
 	  <parameter name = "browser" value = "chrome"/>
     <classes>
-      <class name="testingK.Verify"/>
-      <class name="testingK.TestDemo"/>
-      <class name="webelement_methods.Test"/>
+      <class name="handling_disable_elements.HandlingDisableElements"/>
     </classes>
   </test> 
 </suite> 

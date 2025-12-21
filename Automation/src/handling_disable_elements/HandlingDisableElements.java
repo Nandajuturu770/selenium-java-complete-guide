@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class HandlingDisableElements {
+
 	public static void main(String[] args) throws InterruptedException {
 		// to open the browser
 		WebDriver dr = new ChromeDriver();
@@ -23,7 +23,7 @@ public class HandlingDisableElements {
 		// to enter the url 
 		dr.get("https://demoapps.qspiders.com/ui?scenario=1");
 		// to click on the element 
-		dr.findElement(By.xpath("//li[text()=\"Disabled\"]")).click();
+		dr.findElement(By.xpath("//li[text()='Disabled']")).click();
 		// to type casting 
 		JavascriptExecutor je = (JavascriptExecutor) dr;
 		// to find the element in the web page and the value 
