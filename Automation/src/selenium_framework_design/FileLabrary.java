@@ -1,4 +1,4 @@
-package com.selenium.generic;
+package selenium_framework_design;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
