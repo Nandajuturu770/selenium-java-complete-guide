@@ -1,4 +1,4 @@
-package com.selenium.generic;
+package selenium_framework_design;
 
 import java.time.Duration;
 import java.util.Scanner;

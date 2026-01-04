@@ -11,6 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 public class TakeScreenshot {
+
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// to open the browser
 		WebDriver dr = new ChromeDriver();
@@ -34,7 +35,5 @@ public class TakeScreenshot {
 	    // to save the file
 	    FileUtils.copyFile(address, save);
 	    dr.quit();
-
 		}
 	}
-
